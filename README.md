@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/version-Alpha-green" alt="Alpha Version">
 </div>
 
-<p>This webpage is a to-do list that makes scheduling tasks easy. The front end of the software was created using React and some of its libraries. Additionally, Tailwind CSS was used to style the UI. This software is still in the alpha version, which means that parts of the code have not been written yet.</p>
+<p>This webpage is a to-do list that makes scheduling tasks easy. The front end of the software was created using React and some of its libraries. Additionally, Tailwind CSS was used to style the UI. This software is still in the alpha version, which means that parts of the code have not been written yet. <a href="https://diegogonzalezloa.github.io/task-checker/" target="_blank" rel="noopener">Link of the page</a>.</p>
 
 <strong>Technologies used:</strong>
 <img src="https://img.shields.io/badge/Vite-646CFF?logo=Vite&logoColor=white" alt="React">
