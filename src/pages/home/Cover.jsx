@@ -28,7 +28,7 @@ function Cover({ toggleHandleTask }) {
 
             {/* Cover content */}
             <div className="relative flex flex-col items-center gap-y-14 px-5 py-18">
-                <h2 className="max-w-80 md:max-w-120 lg:max-w-160 mx-auto text-5xl font-semibold">
+                <h2 className="max-w-80 md:max-w-120 lg:max-w-160 mx-auto text-[min(3rem,13.7vw)] font-semibold">
                     Organize Your Life with{" "}
                     <span className="text-teal">Smart Task Management</span>
                 </h2>

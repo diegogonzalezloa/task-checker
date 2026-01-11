@@ -3,6 +3,7 @@ import { format } from "date-fns";
 
 // Import icon
 import Icon from "../assets/icon.svg";
+import Title from "../components/Title";
 
 // Items
 const items = [
@@ -33,13 +34,8 @@ function Footer() {
             <div className="max-w-480 mx-auto text-sm">
                 <div className="grid lg:grid-cols-[max-content_1fr] gap-[max(64px,6.25vw)] mb-16">
                     <div>
-                        <div className="flex items-center gap-x-2 mb-4">
-                            <img src={Icon} alt="Icon" className="w-11" />
-                            <h1 className="text-xl text-white font-semibold">
-                                TaskChecker
-                            </h1>
-                        </div>
-                        <p className="lg:max-w-80">
+                        <Title className="text-white" />
+                        <p className="lg:max-w-80 mt-4">
                             Your intelligent task management companion for a
                             more organized and productive life.
                         </p>

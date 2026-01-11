@@ -10,7 +10,7 @@ function ModalWindow({
 }) {
     return (
         <div className="fixed top-0 left-0 z-1000 h-screen w-screen grid place-items-center p-6 bg-black/80">
-            <div className="w-full max-w-140 p-6 bg-white">
+            <div className="h-full max-h-max w-full max-w-140 p-6 bg-white overflow-auto">
                 <div className="flex justify-between items-center mb-8">
                     <h3 className="text-lg font-semibold">
                         {currTaskHandle.type === "new"

@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 // Import consts
 import navLinks from "../utils/navigation";
-import Icon from "../assets/icon.svg";
 
 // Import component
 import Button from "../components/Button";
+import Title from "../components/Title";
 
 // Header Component
 function Header() {
@@ -14,10 +14,7 @@ function Header() {
         <div className="fixed top-0 left-0 z-99 w-full lg:border-t lg:border-white/50">
             <div className="grid place-items-center h-17 bg-white/97 backdrop-blur-[1.2px]">
                 <header className="flex justify-between items-center w-full max-w-480 mx-auto px-5 md:px-16 lg:px-25">
-                    <div className="flex items-center gap-x-2">
-                        <img src={Icon} alt="Icon" className="w-11" />
-                        <h1 className="text-xl font-semibold">TaskChecker</h1>
-                    </div>
+                    <Title />
                     <nav className="hidden lg:flex justify-between w-[48%] max-w-130">
                         {navLinks.map((link) => (
                             <NavLink
@@ -33,7 +30,7 @@ function Header() {
                         ))}
                     </nav>
                     <Button
-                        className="px-3 py-2 bg-teal text-white hover:bg-stormyTeal"
+                        className="px-3 py-2 bg-teal text-[min(1rem,4vw)] text-white hover:bg-stormyTeal"
                         content="Get Stared"
                     />
                 </header>
