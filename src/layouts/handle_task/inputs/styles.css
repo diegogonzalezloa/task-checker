@@ -1,0 +1,83 @@
+/* Customize the Calendar Popup Wrapper */
+.react-datepicker {
+    font-family: inherit;
+    border: none;
+    box-shadow: 0 10px 25px #00000077;
+    /* Crucial: prevents internal elements from square-cutting the corners */
+    overflow: hidden !important;
+    border-radius: 15px !important;
+}
+
+/* Customize the Header (Month/Year) */
+.react-datepicker__header {
+    padding: 10px;
+    background-color: #028090;
+    border-bottom: none;
+}
+
+.react-datepicker__current-month {
+    color: white;
+    font-weight: 700;
+}
+
+.react-datepicker__day-name {
+    font-weight: 600;
+}
+
+/* Define the vertical alignment */
+.react-datepicker__navigation {
+    /* Match the vertical padding of your header */
+    top: 5px !important;
+
+    /* Reset default library positioning to allow custom spacing */
+    height: 32px !important;
+    width: 32px !important;
+}
+
+/* Customize the arrows of header */
+.react-datepicker__navigation-icon::before {
+    border-color: #e5e5e5 !important; /* Change to your brand color (e.g., Indigo) */
+    border-width: 2px 2px 0 0 !important; /* Adjust thickness if desired */
+}
+
+/* Set the horizontal "Padding" from the edges */
+/* This should match the left/right padding you see in your header text */
+.react-datepicker__navigation--previous {
+    left: 15px !important;
+}
+
+.react-datepicker__navigation--next {
+    right: 15px !important;
+}
+
+/* Hover state for the arrows */
+.react-datepicker__navigation:hover .react-datepicker__navigation-icon::before {
+    background-color: #02809044 !important;
+    border-color: white !important; /* Darker shade on hover */
+}
+
+/* Style for the Current Day (Today) */
+.react-datepicker__day--today {
+    color: #028090;
+}
+
+/* Customize the Days */
+.react-datepicker__day {
+    border-radius: 50%;
+}
+
+.react-datepicker__day--selected {
+    background-color: #028090;
+    color: white;
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: #02809055;
+}
+
+/* The Base Hover State */
+.react-datepicker__day:hover {
+    background-color: #02809020 !important;
+    border-radius: 50% !important;
+    color: black !important;
+}

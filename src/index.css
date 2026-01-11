@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+    --color-stormyTeal: #16697a;
+    --color-teal: #028090;
+    --breakpoint-3xl: 120rem;
+    --breakpoint-2sm: 31.25rem;
+}
+
+@layer base {
+    h2 {
+        font-size: 28px;
+        font-weight: 650;
+        line-height: 1.2;
+    }
+
+    .unselectable-text {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Chrome, Safari, Edge, Opera */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Standard property */
+    }
+}
