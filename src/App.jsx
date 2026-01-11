@@ -1,7 +1,7 @@
 // Import dependencies
 import { useState } from "react";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route,
     useLocation,
